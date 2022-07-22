@@ -1,0 +1,72 @@
+
+
+.App{
+    background: rgb(2,0,36);
+    background-color: black;
+    
+}
+.array-container{
+    position: absolute;
+    right: 0%;
+    width: 2000px;
+  background-color: white;
+  
+  
+}
+
+.buttons{
+    position: fixed; 
+    bottom:10%;
+    width:100%;
+}
+
+.container {
+    position: absolute /*relative and fixed elements also works*/;
+    top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+
+}
+
+.array-bar{
+    width: 10px;
+    background-color: pink;
+    display:inline-block;
+    margin: 0 2px;    
+}
+
+.array-shadow{
+    height: 800px;
+    display:inline-block;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+button {
+    margin: 10px;
+    padding:10px;
+    
+    border: none;
+    background: white;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    
+}
+
+.disclaimerText{
+    color: white;
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
